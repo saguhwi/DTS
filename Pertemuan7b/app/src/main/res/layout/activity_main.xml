@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Ket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Nama Anda"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/Txt_Nama"
+        android:layout_width="339dp"
+        android:layout_height="64dp"
+        android:hint="Nama Anda"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMPILKAN"
+        android:onClick="getTampil"/>
+
+    <TextView
+        android:id="@+id/Lbl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Anda Adalah :"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+</LinearLayout>
