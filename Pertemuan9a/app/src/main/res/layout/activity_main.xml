@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Mahasiswa"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/Txt_Nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nim" />
+
+    <EditText
+        android:id="@+id/Txt_Nama"
+        android:layout_width="544dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama" />
+
+    <EditText
+        android:id="@+id/Txt_Kampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kampus" />
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="133dp"
+        android:layout_height="64dp"
+        android:onClick="getOK"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/Lbl1"
+        android:layout_width="310dp"
+        android:layout_height="52dp" />
+
+    <TextView
+        android:id="@+id/Lbl2"
+        android:layout_width="310dp"
+        android:layout_height="53dp" />
+
+    <TextView
+        android:id="@+id/Lbl3"
+        android:layout_width="310dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>
